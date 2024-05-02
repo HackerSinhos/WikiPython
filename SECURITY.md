@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-This is the versions that i support on issues nad pull requests
+This is the versions that i support on issues and pull requests
 
 | Version | Supported          |
 | ------- | ------------------ |
