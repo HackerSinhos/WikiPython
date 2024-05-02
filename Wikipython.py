@@ -1,14 +1,8 @@
-import ctypes
 import wikipedia as wiki
-
-word = input("Who are you searching? ")
+word = input("What are you searching? ")
 
 try:
     info = wiki.summary(word)
-    ctypes.windll.user32.MessageBoxW(
-        0, info[:400], word, 0
-    )
+    print(info)
 except wiki.exceptions.DisambiguationError:
-    ctypes.windll.user32.MessageBoxW(
-        0, "The word provided does not match any Wikipedia page!", "Error", 0
-    )
+    print("The word provided does not match any Wikipedia page!")
