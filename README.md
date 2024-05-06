@@ -16,7 +16,7 @@ OR
 1. Download zip from source code in this page.
 2. Extract the zip
 3. Open the folder and onpen your terminal on the same directory
-4. Use this commands:
+4. Use these commands:
 ```console
 pip install wikipedia
 py Wikipython.py
